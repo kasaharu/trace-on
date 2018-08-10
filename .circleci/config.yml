@@ -18,3 +18,21 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "yarn.lock" }}
+
+  build:
+    docker:
+      - image: circleci/node:8.11.3-stretch-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
+      - run: yarn build
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - install-packages
+      - build:
+          requires:
+            - install-packages
