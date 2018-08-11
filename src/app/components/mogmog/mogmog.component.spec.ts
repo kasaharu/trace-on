@@ -8,7 +8,7 @@ describe('MogmogComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MogmogComponent ]
+      declarations: [ MogmogComponent ],
     })
     .compileComponents();
   }));
