@@ -37,6 +37,15 @@ jobs:
           key: v1-dependencies-{{ checksum "yarn.lock" }}
       - run: yarn lint
 
+  stylelint:
+    docker:
+      - image: circleci/node:8.11.3-stretch-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
+      - run: yarn stylelint
+
   test:
     docker:
       - image: circleci/node:8.11.3-stretch-browsers
@@ -66,6 +75,9 @@ workflows:
           requires:
             - install-packages
       - lint:
+          requires:
+            - build
+      - stylelint:
           requires:
             - build
       - test:
