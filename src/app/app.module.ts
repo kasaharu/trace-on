@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MogmogComponent } from './components/mogmog/mogmog.component';
+import { TopComponent } from './components/top/top.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MogmogComponent,
+    TopComponent,
   ],
   imports: [
     BrowserModule,
