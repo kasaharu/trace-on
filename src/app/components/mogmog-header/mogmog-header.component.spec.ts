@@ -8,7 +8,7 @@ describe('MogmogHeaderComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MogmogHeaderComponent ]
+      declarations: [ MogmogHeaderComponent ],
     })
     .compileComponents();
   }));
