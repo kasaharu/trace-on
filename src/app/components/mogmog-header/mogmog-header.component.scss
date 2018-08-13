@@ -1,1 +1,20 @@
-/* Only comment */
+.mogmog-header-ly {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: solid 1px #ccc;
+}
+
+.search,
+.user {
+  flex: 0 1 45px;
+  font-size: 24px;
+}
+
+.logo {
+  flex: 2 1 auto;
+  font-size: 24px;
+  font-weight: bold;
+}
