@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { MogmogComponent } from './components/mogmog/mogmog.component';
 import { TopComponent } from './components/top/top.component';
 import { MogmogHeaderComponent } from './components/mogmog-header/mogmog-header.component';
+import { MogmogCoverImageComponent } from './components/mogmog-cover-image/mogmog-cover-image.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { MogmogHeaderComponent } from './components/mogmog-header/mogmog-header.
     MogmogComponent,
     TopComponent,
     MogmogHeaderComponent,
+    MogmogCoverImageComponent,
   ],
   imports: [
     BrowserModule,
