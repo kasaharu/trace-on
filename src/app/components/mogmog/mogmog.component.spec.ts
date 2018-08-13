@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MogmogComponent } from './mogmog.component';
+import { MogmogHeaderComponent } from '../mogmog-header/mogmog-header.component';
 
 describe('MogmogComponent', () => {
   let component: MogmogComponent;
@@ -8,7 +9,7 @@ describe('MogmogComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MogmogComponent ],
+      declarations: [MogmogComponent, MogmogHeaderComponent],
     })
     .compileComponents();
   }));
