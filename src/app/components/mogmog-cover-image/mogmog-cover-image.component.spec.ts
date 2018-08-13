@@ -8,7 +8,7 @@ describe('MogmogCoverImageComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MogmogCoverImageComponent ]
+      declarations: [ MogmogCoverImageComponent ],
     })
     .compileComponents();
   }));
