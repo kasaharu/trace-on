@@ -1,5 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MogmogCoverImageComponent } from './mogmog-cover-image.component';
 
 describe('MogmogCoverImageComponent', () => {
@@ -9,6 +10,7 @@ describe('MogmogCoverImageComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ MogmogCoverImageComponent ],
+      imports: [FontAwesomeModule],
     })
     .compileComponents();
   }));

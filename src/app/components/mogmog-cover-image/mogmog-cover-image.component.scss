@@ -12,7 +12,27 @@
 }
 
 .mogmog-catchphrase {
+  margin-top: 16px;
   color: white;
   font-size: 27px;
   font-weight: bold;
+}
+
+.mogmog-search-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 500px;
+  height: 44px;
+  background-color: white;
+
+  .search-icon {
+    margin-right: 12px;
+  }
+
+  .description {
+    font-size: 16px;
+    color: #999;
+  }
 }
