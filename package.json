@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "stylelint": "stylelint 'src/**/*.scss'"
+    "stylelint": "stylelint 'src/**/*.scss'",
+    "build-for-deploy": "ng build --prod --base-href 'https://kasaharu.github.io/trace-on/'",
+    "deploy": "yarn build-for-deploy && yarn ngh --dir=dist/trace-on"
   },
   "private": true,
   "dependencies": {
