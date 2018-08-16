@@ -44,3 +44,15 @@
   border-bottom: dashed 2px white;
   margin: 50px auto;
 }
+
+.mogmog-scroll-prompt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  margin-top: 64px;
+
+  .message {
+    font-size: 12px;
+  }
+}

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-mogmog-cover-image',
@@ -8,6 +8,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 })
 export class MogmogCoverImageComponent implements OnInit {
   faSearch = faSearch;
+  faChevronDown = faChevronDown;
 
   constructor() { }
 
