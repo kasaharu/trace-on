@@ -11,4 +11,20 @@
   .card-body {
     height: 122px;
   }
+
+  .collaborate {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+
+    .collaborate-item {
+      font-weight: bold;
+    }
+  }
+
+  .count-message {
+    margin: 10px auto 13px;
+    font-size: 10px;
+    color: #ccc;
+  }
 }
