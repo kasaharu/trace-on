@@ -27,4 +27,18 @@
     font-size: 10px;
     color: #ccc;
   }
+
+  .search-box {
+    height: 33px;
+    display: flex;
+    align-items: center;
+    margin: 5px 15px;
+    border: solid 1px #f0af31;
+
+    .search-button {
+      width: 100%;
+      font-size: 14px;
+      color: #f0af31;
+    }
+  }
 }
