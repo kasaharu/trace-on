@@ -10,6 +10,7 @@ import { TopComponent } from './components/top/top.component';
 import { MogmogHeaderComponent } from './components/mogmog-header/mogmog-header.component';
 import { MogmogCoverImageComponent } from './components/mogmog-cover-image/mogmog-cover-image.component';
 import { MogmogPopularMenuListComponent } from './components/mogmog-popular-menu-list/mogmog-popular-menu-list.component';
+import { MogmogSearchCardComponent } from './components/mogmog-search-card/mogmog-search-card.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MogmogPopularMenuListComponent } from './components/mogmog-popular-menu
     MogmogHeaderComponent,
     MogmogCoverImageComponent,
     MogmogPopularMenuListComponent,
+    MogmogSearchCardComponent,
   ],
   imports: [
     BrowserModule,
