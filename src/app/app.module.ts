@@ -9,6 +9,7 @@ import { MogmogComponent } from './components/mogmog/mogmog.component';
 import { TopComponent } from './components/top/top.component';
 import { MogmogHeaderComponent } from './components/mogmog-header/mogmog-header.component';
 import { MogmogCoverImageComponent } from './components/mogmog-cover-image/mogmog-cover-image.component';
+import { MogmogPopularMenuListComponent } from './components/mogmog-popular-menu-list/mogmog-popular-menu-list.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MogmogCoverImageComponent } from './components/mogmog-cover-image/mogmo
     TopComponent,
     MogmogHeaderComponent,
     MogmogCoverImageComponent,
+    MogmogPopularMenuListComponent,
   ],
   imports: [
     BrowserModule,
