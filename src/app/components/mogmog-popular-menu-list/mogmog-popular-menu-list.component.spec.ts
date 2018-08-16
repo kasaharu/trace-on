@@ -8,7 +8,7 @@ describe('MogmogPopularMenuListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MogmogPopularMenuListComponent ]
+      declarations: [ MogmogPopularMenuListComponent ],
     })
     .compileComponents();
   }));
