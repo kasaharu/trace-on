@@ -8,7 +8,7 @@ describe('MogmogSearchCardComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MogmogSearchCardComponent ]
+      declarations: [ MogmogSearchCardComponent ],
     })
     .compileComponents();
   }));
